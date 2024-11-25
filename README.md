@@ -1,12 +1,47 @@
 # 620-mod6-web-scraping
+WMNLP, Module 6
+Melissa Stone Rogers, [GitHub](https://github.com/meldstonerogers/620-mod6-web-scraping)
 
-See [BeautifulSoup Quickstart Guide](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start)
+## Introduction
+Professional project using python, jupyterlab, and beautifulsoup4 to practice web scraping. 
+Commands were used on a Mac machine running zsh. Project was forked by the following respository's by Dr. Denise Case: [620-mod6-web-scraping](https://github.com/denisecase/620-mod6-web-scraping). 
 
-Choose a BeautifulSoup parser:
+## Project Set Up and Dependency Management 
+Fork the above repository in GitHub and clone to your machine. Open project in VS Code. 
+```zsh
+git clone project.url
+```
 
-- 'html.parser' (default, you get this with BeautifulSoup)
-- 'html5lib' (install separately if desired)
+Verify your Python version and create a virtual environment. 
+```zsh
+python3 --version
 
-## Getting Started
+```
+```zsh
+python3 -m venv venv
+source venv/bin/activate
+```
+### Install required packages and dependencies into virtual enviornment
+```zsh
+python -m pip install beautifulsoup4
+python -m pip install html5lib
+python -m pip install requests
+python -m pip install spacy
+python -m pip install spacytextblob
+python -m pip install matplotlib
+```
+### Initial Project Save
+```zsh
+git add .
+git commit -m "initial"                         
+git push origin main
+```
 
-Fork (copy into your GitHub account) and clone down (to your machine) this repo to get started with web scraping.
+
+## Complete Your Project
+Save your project and push back to your repository. 
+```zsh
+git add .
+git commit -m "final"                         
+git push origin main
+```
