@@ -42,6 +42,8 @@ Complete the [web-scraping](https://github.com/denisecase/620-mod6-web-scraping/
 
 Complete the project, regularly pushing changes to your project repository.
 
+When completed, export web-scraping file as an html file.
+
 ## Finalize Your Project
 Save your project and push back to your repository. 
 ```zsh
